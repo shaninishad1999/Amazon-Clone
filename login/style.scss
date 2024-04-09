@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.logo {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.logo img {
+    width: 110px;
+    height: 35px;
+
+}
+
+.logo span {
+    padding-top: 5px;
+}
+
+.hero {
+    margin-top: 20px;
+}
+
+.login {
+    margin: auto;
+    height: 410px;
+    border: 2px solid rgba(0, 0, 0, 0.093);
+    width: 350px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom:30px;
+    padding-left: 25px;
+    
+
+
+}
+
+.login-heading h1 {
+    font-size: 30px;
+    font-weight: 100px;
+}
+
+.login-form {
+    margin-top: 10px;
+}
+strong{
+    font-size: 14px;
+}
+label a{
+    font-size: 14px;
+    font-weight: 400;
+}
+input[type=email],select{
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.221);
+
+}
+input[type=password],select{
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.221);
+
+}
+input[type=button],select{
+    font-size: 13px;
+    width: 100%;
+    padding:  8px;
+    outline: none;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: #FFD814;
+    border-radius: 5px;
+    border: transparent;
+}
+
+.p-p{
+    margin-bottom: 13px;
+}
+.p-p p{
+    font-size: 14px;
+
+}
+.p-p p span a{
+    text-decoration: none;
+    color: #0066c0;
+}
+.p-p p span a:hover{
+    color: red;
+    border-bottom: 1px solid red;
+}
+ a{
+    text-decoration: none;
+    color: #0066c0;
+
+}
+a:hover{
+    color: red;
+    border-bottom: 1px solid red;
+
+}
+.new-user{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.new-user-btn a button{
+    font-size: 13px;
+    width: 100%;
+    padding:  5px;
+    outline: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 5px;
+   border-color: rgba(0, 0, 0, 0.136);
+
+}
+.new-user-btn a button:hover{
+    background-color: whitesmoke;
+}
+.new-user-btn a:hover{
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+// foooter
+.line {
+    margin-top: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.088);
+}
+.footer{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+.footer ul li a{
+    text-decoration: none;
+    margin: 20px;
+   font-size: 12px;
+   color: #0066c0;
+
+}
+.footer ul li a:hover{
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.footer p{
+    margin-top: 15px;
+    font-size: 12px;
+}
