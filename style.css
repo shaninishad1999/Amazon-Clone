@@ -123,6 +123,16 @@ header {
   padding: 7px;
 }
 
+.sign p span a {
+  text-decoration: none;
+  color: white;
+}
+
+.address-2 a {
+  text-decoration: none;
+  color: white;
+}
+
 span {
   font-size: 0.7rem;
 }

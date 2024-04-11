@@ -79,6 +79,8 @@ header {
 
 }
 
+
+
 // box 3
 
 .search {
@@ -153,7 +155,14 @@ span {
     font-weight: 700;
     padding: 7px;
 }
-
+.sign p span a{
+    text-decoration: none;
+    color: white;
+}
+.address-2 a{
+    text-decoration: none;
+    color: white;
+}
 
 
 // nav close
@@ -308,9 +317,17 @@ button:hover {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    border-bottom: 1px solid red
-    ;
+    border-bottom: 1px solid red;
 }
+.collapse a{
+    text-decoration: none;
+    color: black;
+
+}
+.collapse a:hover{
+    color: rgb(141, 11, 11);
+}
+
 .categories{
     padding: 10px;
     border-bottom: 1px solid red;
@@ -365,7 +382,13 @@ button:hover {
     color: black;
     font-size: 15px;
 }
-
+.cash{
+    padding: 20px;
+   
+}
+.cash p{
+    padding-bottom: 10px;
+}
 
 
 // 
@@ -383,6 +406,7 @@ button:hover {
     height: 250px;
     background-color: white;
     text-align: center;
+    margin-bottom: 300px;
   
 }
 .right-item img{
@@ -406,7 +430,7 @@ button:hover {
     margin-top: -5px;
     height: 300px;
     width: 225px;
-    border: 1px solid red;
+    border: 1px solid rgb(254, 248, 248);
     text-align: left;
 }
 .right-item-1{
@@ -436,4 +460,15 @@ button:hover {
     background-color: red;
     padding: 5px;
 }
+.right-item-1 h2{
+    font-weight: normal;
 
+}
+.right-item-1 h3{
+    font-weight: normal;
+    font-size: 15px;
+
+}
+.right-item-1 sub{
+    font-size: 13px;
+}
