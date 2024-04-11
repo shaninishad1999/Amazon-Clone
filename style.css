@@ -162,6 +162,15 @@ span {
 }
 
 .panel-all {
+  cursor: pointer;
+}
+
+.panel-all a {
+  text-decoration: none;
+  color: white;
+}
+
+.panel-all {
   margin-left: 15px;
   margin-right: 15px;
   padding: 7px;
