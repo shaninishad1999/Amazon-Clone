@@ -76,13 +76,15 @@ header {
   display: flex;
   background-color: pink;
   width: 55%;
-  height: 40px;
+  height: 35px;
   border-radius: 3px;
   justify-content: space-evenly;
+  outline: none;
+  border: none;
 }
 
 .search:hover {
-  border: 3px solid orange;
+  border: 2px solid orange;
 }
 
 .search-select {
@@ -98,6 +100,9 @@ header {
   width: 100%;
   font-size: 1rem;
   border: none;
+  padding-left: 10px;
+  outline: none;
+  border: none;
 }
 
 .search-icon {
@@ -109,10 +114,11 @@ header {
   background-color: orange;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
+  cursor: pointer;
 }
 
 .lang {
-  padding: 7px;
+  padding: 14px 7px 14px 7px;
 }
 
 .sign {
@@ -660,6 +666,10 @@ sup {
 
 .footer-main-list-1 a:hover {
   border-bottom: 1px solid white;
+}
+
+.footer-main-list-last-footer {
+  padding-left: 18px;
 }
 
 .copyrights {
